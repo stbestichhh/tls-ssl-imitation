@@ -1,0 +1,23 @@
+{
+  "name": "tls-ssl-imitation",
+  "version": "1.0.0",
+  "description": "Simulated TLS/SSL handshake demo in TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "fmt": "prettier --write .",
+    "start:dev-server": "tsx src/server.ts",
+    "start:dev-client": "tsx src/client.ts",
+    "start:server": "node dist/server.js",
+    "start:client": "node dist/client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
